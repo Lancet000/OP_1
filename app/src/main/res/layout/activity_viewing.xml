@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg2"
+    android:orientation="vertical"
+    tools:context=".viewing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <TextView
+            android:id="@+id/textViewIN"
+            style="@android:style/Widget.Material.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="100"
+            android:background="#80FFFFFF"
+            android:padding="8dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="21dp"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <TextView
+            android:id="@+id/textViewOUT"
+            style="@android:style/Widget.Material.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="100"
+            android:background="#80FFFFFF"
+            android:padding="8dp"
+            android:textColor="@color/teal_700"
+            tools:ignore="HardcodedText" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/buttonZuo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="("
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonYOU"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text=")"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:text="C"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="←"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+/-"
+            android:textSize="8sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="√"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonY"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:text="%"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonJIA"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="+"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="8"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:text="9"
+            tools:ignore="HardcodedText" />
+
+
+        <Button
+            android:id="@+id/buttonJIAN"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="-"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="5"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:text="6"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonCHENG"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="*"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="2"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:text="3"
+            tools:ignore="HardcodedText" />
+
+
+        <Button
+            android:id="@+id/buttonCHU"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="÷"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonDIAN"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonDENG"
+            android:layout_width="116dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="14dp"
+            android:layout_weight="2"
+            android:text="="
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
